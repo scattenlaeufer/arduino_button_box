@@ -18,5 +18,3 @@ set(button_box_SKETCH buttonbox_sketch.ino)
 set(button_box_PORT /dev/ttyUSB0)
 
 generate_arduino_firmware(button_box)
-
-print_board_list()
